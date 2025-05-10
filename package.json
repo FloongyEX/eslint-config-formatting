@@ -1,0 +1,26 @@
+{
+  "name": "@floongyex/eslint-config-formatting",
+  "version": "0.1.0",
+  "description": "ESLint share configurations that focus on code style checking and formatting.",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "style",
+    "formatting"
+  ],
+  "license": "MIT",
+  "author": "FloongyEX <floongyex@outlook.com>",
+  "type": "module",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md",
+    "README.zh-CN.md"
+  ],
+  "exports": {
+    ".": "./index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">= 9"
+  }
+}
