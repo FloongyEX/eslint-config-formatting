@@ -27,3 +27,7 @@ TODO.
 ## Rules
 
 TODO.
+
+## License
+
+MIT © FloongyEX

@@ -23,3 +23,7 @@ ESLint 可共享配置，基于 [ESLint Stylistic](https://eslint.style/)
 ## 规则
 
 待完成。
+
+## 许可证
+
+MIT © FloongyEX
