@@ -1,4 +1,4 @@
-# eslint-config-formatting
+# eslint-config-styling
 
 <div align="center">
   <span>🌐 Language</span><br>
