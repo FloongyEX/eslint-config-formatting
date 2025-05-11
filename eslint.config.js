@@ -1,6 +1,7 @@
 import js from "@eslint/js"
 import globals from "globals"
 import { defineConfig } from "eslint/config"
+import sharedConfigForStyling from "./index.js"
 
 export default defineConfig([
   {
@@ -9,4 +10,5 @@ export default defineConfig([
     plugins: { js },
     extends: ["js/recommended"]
   },
+  sharedConfigForStyling.stylistic,
 ])

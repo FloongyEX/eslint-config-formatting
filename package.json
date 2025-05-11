@@ -12,6 +12,7 @@
   "author": "FloongyEX <floongyex@outlook.com>",
   "type": "module",
   "files": [
+    "lib",
     "index.js",
     "LICENSE",
     "README.md",
