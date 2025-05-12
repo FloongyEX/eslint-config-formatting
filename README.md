@@ -18,11 +18,33 @@ to confirm if it meets your style needs.
 
 ## Install
 
-TODO.
+Install this package as a devDependency:
+
+```shell
+npm install --save-dev  @floongyex/eslint-config-styling  
+```
 
 ## Usage
 
-TODO.
+Add the shared configuration object to the configuration array
+in your ESLint flat config file:
+
+```JavaScript file:eslint.config.js
+import { defineConfig } from "eslint/config"
+// import config
+import sharedConfigForStyling from '@floongyex/eslint-config-styling'
+
+export default defineConfig([
+  // your other config items
+  // ...
+
+  // add config
+  sharedConfigForStyling.stylistic,
+])
+```
+
+For more details,
+check the [ESLint official docs](https://eslint.org/docs/head/use/configure/configuration-files).
 
 ## Rules
 
