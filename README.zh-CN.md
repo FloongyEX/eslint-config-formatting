@@ -42,7 +42,9 @@ export default defineConfig([
 
 ## 规则
 
-待完成。
+可以查看源代码（[stylistic](lib/stylistic.js)）来了解已配置的规则。
+
+关于规则的更多信息请参阅 [ESLint Stylistic 规则](https://eslint.style/packages/default#rules)。
 
 ## 许可证
 

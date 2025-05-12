@@ -48,7 +48,11 @@ check the [ESLint official docs](https://eslint.org/docs/head/use/configure/conf
 
 ## Rules
 
-TODO.
+You can check the source code ([stylistic](lib/stylistic.js))
+to see the configured rules.
+
+For more details about the rules, refer to
+the [ESLint Stylistic Rules](https://eslint.style/packages/default#rules).
 
 ## License
 
