@@ -34,5 +34,17 @@
     "@stylistic/eslint-plugin": "^4.2.0",
     "eslint": "^9.26.0",
     "globals": "^16.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FloongyEX/eslint-config-styling.git"
+  },
+  "homepage": "https://github.com/FloongyEX/eslint-config-styling",
+  "bugs": {
+    "url": "https://github.com/FloongyEX/eslint-config-styling/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "provenance": true
   }
 }
