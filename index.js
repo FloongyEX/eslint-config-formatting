@@ -1,5 +1,5 @@
 import stylistic from "./lib/stylistic.js"
 
-const sharedConfigForStyling = { stylistic }
+const stylingConfig = { stylistic }
 
-export default sharedConfigForStyling
+export default stylingConfig
