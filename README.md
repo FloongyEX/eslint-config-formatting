@@ -32,14 +32,14 @@ in your ESLint flat config file:
 ```JavaScript file:eslint.config.js
 import { defineConfig } from "eslint/config"
 // import config
-import sharedConfigForStyling from '@floongyex/eslint-config-styling'
+import stylingConfig from '@floongyex/eslint-config-styling'
 
 export default defineConfig([
   // your other config items
   // ...
 
   // add config
-  sharedConfigForStyling.stylistic,
+  stylingConfig.stylistic,
 ])
 ```
 

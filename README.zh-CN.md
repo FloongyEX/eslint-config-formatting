@@ -27,14 +27,14 @@ npm install --save-dev  @floongyex/eslint-config-styling
 ```JavaScript file:eslint.config.js
 import { defineConfig } from "eslint/config"
 // 导入配置
-import sharedConfigForStyling from '@floongyex/eslint-config-styling'
+import stylingConfig from '@floongyex/eslint-config-styling'
 
 export default defineConfig([
   // 你的其他配置项
   // ……
 
   // 添加配置
-  sharedConfigForStyling.stylistic,
+  stylingConfig.stylistic,
 ])
 ```
 
