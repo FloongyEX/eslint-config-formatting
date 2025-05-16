@@ -1,6 +1,6 @@
 {
   "name": "@floongyex/eslint-config-styling",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ESLint share configurations that focus on code style checking and formatting.",
   "keywords": [
     "eslint",
